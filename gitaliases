@@ -1,0 +1,7 @@
+[alias]
+    s = status -s
+    l = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+    c = commit --verbose
+    cam = commit -a -m
+    d = diff
+    ds = diff --staged
