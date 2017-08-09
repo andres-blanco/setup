@@ -5,3 +5,4 @@
     cam = commit -a -m
     d = diff
     ds = diff --staged
+    pr = pull --rebase
